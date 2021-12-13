@@ -1,0 +1,35 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(10, 200, 40, 0.2);
+}
+
+.titulo_header{
+    font-size: 3em;
+    margin: .5em .4em;
+    color: white;
+}
+
+.cabecalho .lista{
+    display: flex;
+    font-size: 1.4em;
+}
+
+.item_header{
+    margin: 1em 1.5em 0 0;
+    padding: .3em;
+    
+}
+
+.item_header:last-child{
+    margin-right: 3em;
+}
+
+.link{
+    text-decoration: none;
+    color: #ddeadd
+}
+
+.link:hover{
+    color: #adeada
+}
