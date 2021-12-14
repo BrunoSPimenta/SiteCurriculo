@@ -1,0 +1,28 @@
+.bg-sobre{
+    background: #6F8AB7
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    vertical-align: center;
+   
+}
+
+.margem{
+    margin: 10px;
+}
+
+.grow{
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.sobre .margem{
+    background-image: url(../imgs/euegabie.jpeg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 500px;
+}

@@ -8,55 +8,96 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/cabecalho.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/sobre.css" rel="stylesheet">
 </head>
 <body>
-    <header class="cabecalho">     
-        <h1 class="titulo_header">Bruno da Silva Pimenta</h1>   
+    <header class="cabecalho"> <!-- *************************Nav e cabecalho*************************-->
         <ul class="lista">
-            <li class="item_header"><a class="link" href="#">Competencias</a></li>
+            <li class="item_header"><a class="link" href="#competencias">Competencias</a></li>
+            <li class="item_header"><a class="link" href="#sobre">Sobre</a></li>
             <li class="item_header"><a class="link" href="#">Contato</a></li>
-            <li class="item_header"><a class="link" href="#">Sobre</a></li>
         </ul>
     </header>
-    <main>
-        <section class="competencias">
-            <div class="box">
-                <h3 class="titulo_competencias">Competências</h3>
-                <fieldset class="container">
-                    <div class="programacao">
-                        <h4 class="titulo_prog">Programação</h4>
-                        <ul class="lista">
-                            <li class="item_prog">HTML e CSS</li>
-                            <li class="item_prog">JavaScript</li>
-                            <li class="item_prog">Pyton</li>
-                            <li class="item_prog">PHP</li>
-                            <li class="item_prog">React.js</li>
-                            <li class="item_prog">Angular</li>
-                            <li class="item_prog">Vue.js</li>
-                        </ul>
+    <main> 
+        <section class="competencias" id="competencias"> <!-- *************************Competencias*************************-->
+
+            <h3 class="titulo_principal">Competências</h3>
+
+            <div class="boxs">
+                
+                <div class="container">
+
+                    <div class="card">  <!--Carta-->
+                        <div class="box"> <!--Virada-->
+                            <div class="frente">
+                                <h4 class="titulo">Programação</h4> <!--Tras-->
+                            </div>                            
+                            
+                                <div class="tras">
+                                    <ul class="lista"><!--Frente-->
+                                        <li class="item">HTML e CSS</li> 
+                                        <li class="item">JavaScript</li>
+                                        <li class="item">Pyton</li>
+                                        <li class="item">PHP</li>
+                                        <li class="item">React.js</li>
+                                        <li class="item">Angular</li>
+                                        <li class="item">Vue.js</li>
+                                    </ul>
+                                </div>
+                            
+                        </div>
                     </div>
-                    <div class="edicao">
-                        <h4 class="titulo_edicao">Edição</h4>
-                        <ul class="lista">
-                            <li class="item_edicao">Adobe Photoshop</li>
-                            <li class="item_edicao">Adobe Premiere</li>
-                            <li class="item_edicao">Vegas Pro</li>
-                        </ul>
+                    <div class="card">  <!--Carta-->
+                        <div class="box"><!--Card-->
+                            <div class="frente">
+                                <h4 class="titulo">Edição</h4><!--Tras-->
+                            </div>
+                            <div class="tras">
+                                <ul class="lista"><!--Frente-->                                
+                                    <li class="item">Adobe Photoshop</li>
+                                    <li class="item">Adobe Premiere</li>
+                                    <li class="item">Vegas Pro</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
                     </div>
-                    <div class="diversos">
-                        <h4 class="titulo_diversos">Diversos</h4>
-                        <ul class="lista">
-                            <li class="item_diversos">Excel</li>
-                            <li class="item_diversos">SO Windows</li>
-                        </ul>
+                    <div class="card">  <!--Carta-->
+                        <div class="box"><!--Card-->
+                            <div class="frente">
+                                <h4 class="titulo">Diversos</h4><!--Tras-->
+                            </div>
+                            
+                                <div class="tras">
+                                    <ul class="lista"><!--Frente-->
+                                        <li class="item">Excel</li>
+                                        <li class="item">SO Windows</li>
+                                    </ul>
+                                </div>
+                            
+                        </div>
                     </div>
-                </fieldset>
+                </div>
             </div>
             
         </section>
 
-        <section>
-            <h3>Sobre</h3>
+        <section class="bg-sobre"> <!-- *************************Sobre*************************-->
+            
+            <h3 class="titulo_principal">Sobre</h3>
+
+            <div class="sobre" id="sobre">
+                
+                <div class="box margem">
+                    
+                </div>
+
+                <div class="box grow"></div>
+
+
+
+
+            </div>
             <!-- <p>Me chamo Bruno tenho 23 anos, estou cusando Análise e Desenvolvimento de sistema na Uninove no periodo noturno. Alem da faculdade estou estudando com os cursos da Alura para desenvolver e aprender a programar, seja Front-end ou Back-end</p> -->
         </section>
     </main>
