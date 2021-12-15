@@ -1,8 +1,9 @@
 .cabecalho{
     display: flex;
     justify-content: space-around;
-    background: #615d6c;
-    border-bottom: 1px dashed #cdcdcd;
+    background: black;
+    border-bottom: 1px solid #aadbea;
+    box-shadow: 4px 4px #fdfdfd;
 }
 
 .cabecalho .lista{
@@ -13,16 +14,16 @@
 
 .item_header{
     margin: 1em 1em auto 0;
-    border: 1px solid rgba(0, 0, 0 , .1);
+    border: 1px solid rgba(255, 166, 0, 0.501);
     border-radius: 5px;
     padding: 20px;
 }
 
 .link{
     text-decoration: none;
-    color: rgba(0, 0, 0 , .7)
+    color: #fdfdfd;
 }
 
 .link:hover{
-    color: #adeada
+    color: #823a9d
 }

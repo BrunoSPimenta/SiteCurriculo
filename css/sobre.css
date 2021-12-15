@@ -1,28 +1,52 @@
-.bg-sobre{
-    background: #6F8AB7
+.sobre_contato{
+    height: calc(100vh + 112px);
 }
 
-.sobre{
+.box_img{
+    background-image: url("../imgs/euegabie.jpeg");
+    background-size: 300px 300px;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    box-shadow: 4px 4px 4px 4px black;
+    
+}
+
+.img_texto{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    vertical-align: center;
-   
+    margin: 2em;
+    justify-content: center;
+    margin-right: 15%;
 }
 
-.margem{
-    margin: 10px;
+.box_sobre{
+    background: linear-gradient(#f4fd4c, #ffc300, #f8e072, #f2e700);
+    border: 1px solid black;
+    border-radius: 1.4em;
+    height: 210px;
+    margin: .6em 0 0 1.4em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px black;
+    padding: 1.2em;
+
 }
 
-.grow{
-    flex-grow: 1;
-    margin: 10px;
+.subtitulo{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 2em;
 }
 
-.sobre .margem{
-    background-image: url(../imgs/euegabie.jpeg);
-    background: cover;
-    background-repeat: no-repeat;
-    background-size: 400px 500px;
+.sobre_texto{
+    text-align: center;
+    padding: .4em;
+    margin: .4em;
+}
+
+strong{
+    font-weight: bold;
 }
