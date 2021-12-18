@@ -1,3 +1,7 @@
+.sobre_contato .titulo_principal{
+    margin: 10vh;
+}
+
 .sobre_contato{
     height: calc(100vh + 112px);
 }
@@ -21,7 +25,7 @@
 }
 
 .box_sobre{
-    background: linear-gradient(#f4fd4c, #ffc300, #f8e072, #f2e700);
+    background: linear-gradient(90deg, #971ab4, #974dff, #4e00ba);
     border: 1px solid black;
     border-radius: 1.4em;
     height: 210px;
