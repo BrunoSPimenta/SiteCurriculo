@@ -1,10 +1,4 @@
-.sobre_contato .titulo_principal{
-    margin: 10vh;
-}
 
-.sobre_contato{
-    height: calc(100vh + 112px);
-}
 
 .box_img{
     background-image: url("../imgs/euegabie.jpeg");

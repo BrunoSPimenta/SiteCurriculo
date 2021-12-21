@@ -1,0 +1,42 @@
+.contato_projetos{
+    position: relative;
+    display: flex;
+    height: 300px;
+    margin-top: 200px;
+}
+
+.box_contato{
+    background: linear-gradient(90deg, #971ab4, #974dff, #4e00ba);
+    border: 1px solid black;
+    border-radius: 1.4em;
+    height: 150px;
+    margin: .6em 0 0 1.4em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 4px 4px black;
+    padding: 1.2em;
+
+}
+
+.img_contato{
+    height: 110px;
+    width: 110px;
+}
+
+.box_facul{
+    background: linear-gradient(90deg, #971ab4, #974dff, #4e00ba);
+    border: 1px solid black;
+    border-radius: 1.4em;
+    height: 210px;
+    margin: -10em 0 0 4em;
+    width: 20%;
+    box-shadow: 4px 4px black;
+    padding: 1.2em;
+}
+
+.texto_facul{
+    margin: 1.2em;
+    padding: 1.5em;
+}
