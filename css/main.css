@@ -1,16 +1,16 @@
-/* estilo do main */ 
+/* estilo do main */
 
-main{
+main {
     background: linear-gradient( #0157ff, #1b9fbc, #390c78);
     /* background: linear-gradient(#0157ff, #5365ff, #828fff, #5365ff, #0157ff); */
 }
 
-.boxs .container{    
-    display:flex;
+.boxs .container {
+    display: flex;
     justify-content: space-around;
 }
 
-.titulo_principal{
+.titulo_principal {
     color: black;
     text-align: center;
     font-size: 5em;
@@ -19,7 +19,7 @@ main{
     font-family: cursive;
 }
 
-.box{
+.box {
     /* background: linear-gradient( 90deg, #831ab4, #8233ee, #5206bc); */
     background: linear-gradient(90deg, #971ab4, #974dff, #4e00ba);
     border: 1px solid black;
@@ -34,31 +34,33 @@ main{
     box-shadow: 4px 4px black;
 }
 
-.titulo{
+.titulo {
     font-size: 2.4em;
     font-weight: bold;
     padding: .8em;
-    text-align: center;    
+    text-align: center;
 }
 
-.item{
+.item {
     margin: 0 0 .3em .3em;
     padding: .2em;
     font-size: 1.6em;
 }
 
+
 /* Efeitos de carta */
 
-.card .box{
+.card .box {
     transition: transform 0.9s;
     transform-style: preserve-3d;
 }
 
-.card:hover .box{
+.card:hover .box {
     transform: rotateY(180deg);
 }
 
-.frente, .tras{
+.frente,
+.tras {
     position: absolute;
     backface-visibility: hidden;
 }
@@ -67,14 +69,14 @@ main{
     transform: rotateY(180deg);
 }
 
-.frente , .tras{
+.frente,
+.tras {
     border-radius: 12px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3)
 }
 
-
-.rodape_texto{
+.rodape_texto {
     text-align: center;
     background-color: black;
-    color:white;
+    color: white;
 }

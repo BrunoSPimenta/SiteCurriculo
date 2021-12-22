@@ -1,4 +1,4 @@
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: space-around;
     background: black;
@@ -6,24 +6,24 @@
     box-shadow: 4px 4px #fdfdfd;
 }
 
-.cabecalho .lista{
+.cabecalho .lista {
     display: flex;
     font-size: 1.4em;
     margin-bottom: 1.1em;
 }
 
-.item_header{
+.item_header {
     margin: 1em 1em auto 0;
     border: 1px solid rgba(255, 166, 0, 0.501);
     border-radius: 5px;
     padding: 20px;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #fdfdfd;
 }
 
-.link:hover{
+.link:hover {
     color: #823a9d
 }
